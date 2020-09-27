@@ -71,7 +71,7 @@ import 'package:splash_screen_view/SplashScreenView.dart';
 
 ## SimpleLogo
 
-<img src="https://github.com/SandipVKalola/splash_screen/blob/master/display/OnlyImage.gif?raw=true" align = "right" width="400" >
+<img src="https://github.com/SandipVKalola/splash_screen/blob/master/display/OnlyImage.gif?raw=true" align = "right" width="200" height = "300px">
 
 ```dart
 SplashScreenView(
@@ -92,7 +92,7 @@ SplashScreenView(
 
 ## LogoWithText
 
-<img src="https://github.com/SandipVKalola/splash_screen/blob/master/display/Normal.gif?raw=true" align = "right" width="400">
+<img src="https://github.com/SandipVKalola/splash_screen/blob/master/display/Normal.gif?raw=true" align = "right" width="200px" height = "300px">
 
 ```dart
 SplashScreenView(
