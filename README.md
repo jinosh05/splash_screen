@@ -27,7 +27,6 @@ samples, guidance on mobile development, and a full API reference.
    * [Typer Animated Text](#typewriterText)
  * [Bugs or Requests](#bugs-or-requests)
  * [Donate](#donate)
- * [References](#References)
  * [License](#license)
 
 
