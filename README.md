@@ -71,7 +71,7 @@ import 'package:splash_screen_view/SplashScreenView.dart';
 
 ## SimpleLogo
 
-<img src="https://github.com/SandipVKalola/splash_screen/blob/master/display/OnlyImage.gif?raw=true" align = "right">
+<img src="https://github.com/SandipVKalola/splash_screen/blob/master/display/OnlyImage.gif?raw=true" align = "right" width="400" >
 
 ```dart
 SplashScreenView(
@@ -92,7 +92,7 @@ SplashScreenView(
 
 ## LogoWithText
 
-<img src="https://github.com/SandipVKalola/splash_screen/blob/master/display/Normal.gif?raw=true" align = "right">
+<img src="https://github.com/SandipVKalola/splash_screen/blob/master/display/Normal.gif?raw=true" align = "right" width="400">
 
 ```dart
 SplashScreenView(
@@ -116,7 +116,7 @@ SplashScreenView(
 
 ## ColorizeText
 
-<img src="https://github.com/SandipVKalola/splash_screen/blob/master/display/ColorizeAnimatedText.gif?raw=true" align = "right">
+<img src="https://github.com/SandipVKalola/splash_screen/blob/master/display/ColorizeAnimatedText.gif?raw=true" align = "right" width="400">
 
 ```dart
 SplashScreenView(
@@ -146,7 +146,7 @@ SplashScreenView(
 
 ## ScaleText
 
-<img src="https://github.com/SandipVKalola/splash_screen/blob/master/display/ScaleAnimatedText.gif?raw=true" align = "right">
+<img src="https://github.com/SandipVKalola/splash_screen/blob/master/display/ScaleAnimatedText.gif?raw=true" align = "right" width="400">
 
 ```dart
 SplashScreenView(
@@ -168,7 +168,7 @@ SplashScreenView(
 
 ## typewriterText
 
-<img src="https://github.com/SandipVKalola/splash_screen/blob/master/display/TyperAnimatedText.gif?raw=true" align = "right">
+<img src="https://github.com/SandipVKalola/splash_screen/blob/master/display/TyperAnimatedText.gif?raw=true" align = "right" width="400"> 
 
 ```dart
 SplashScreenView(
