@@ -25,6 +25,7 @@ samples, guidance on mobile development, and a full API reference.
    * [Colorize Animated Text](#ColorizeText)
    * [Scale Animated Text](#ScaleText)
    * [Typer Animated Text](#typewriterText)
+   * [Page Route Behaviors](#pageRouteBehaviors)
  * [Bugs or Requests](#bugs-or-requests)
  * [Donate](#donate)
  * [License](#license)
@@ -37,7 +38,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  splash_screen_view: ^1.0.1
+  splash_screen_view: ^2.0.0
 ```
 
 ### 2. Install it
@@ -175,6 +176,7 @@ SplashScreenView(
       duration: 3000,
       imageSize: 100,
       imageSrc: "logo.png",
+      speed: 100,
       text: "Typer Animated Text",
       textType: TextType.TyperAnimatedText,
       textStyle: TextStyle(
@@ -185,6 +187,18 @@ SplashScreenView(
 ```
 [Where]:
  - textType - Gives text type as TextType.TyperAnimatedText
+ - speed - Duration of the delay between the apparition of each characters
+
+
+## pageRouteBehaviors
+Defines standard behaviors when transitioning between routes (or screens). Sometimes, though, a custom transition between screens can make an app more unique. 
+
+Support of page route behaviors
+ - pageRouteTransition: PageRouteTransition.Normal
+ - pageRouteTransition: PageRouteTransition.CupertinoPageRoute
+ - pageRouteTransition: PageRouteTransition.SlideTransition
+   
+
 
 # Bugs or Requests
 
