@@ -38,7 +38,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  splash_screen_view: ^2.0.0
+  splash_screen_view: ^2.0.1
 ```
 
 ### 2. Install it
@@ -75,7 +75,7 @@ import 'package:splash_screen_view/SplashScreenView.dart';
 
 ```dart
 SplashScreenView(
-      home: SecondScreen(),
+      navigateRoute: SecondScreen(),
       duration: 3000,
       imageSize: 200,
       imageSrc: "logo.png",
@@ -83,9 +83,9 @@ SplashScreenView(
     );
 ```
 [Where]:
- - home (required)- Name of target screen which you want to display after completion of splash screen milliseconds.
- - duration (required) - Delay between the splash screen and target screen. Provider Duration in millisecond.
- - imageSrc (required)- Assets path for your logo which your want to display on splash screen.
+ - navigateRoute (required)- Name of target screen which you want to display after completion of splash screen milliseconds.
+ - duration  - Delay between the splash screen and target screen. Provider Duration in millisecond.
+ - imageSrc - Assets path for your logo which your want to display on splash screen or Server image path.
  - imageSize - Size of your logo. By default it is 150.
  - backgroundColor - Background color of splash screen. By default it is white color.
 
@@ -96,7 +96,7 @@ SplashScreenView(
 
 ```dart
 SplashScreenView(
-      home: SecondScreen(),
+      navigateRoute: SecondScreen(),
       duration: 3000,
       imageSize: 100,
       imageSrc: "logo.png",
@@ -120,7 +120,7 @@ SplashScreenView(
 
 ```dart
 SplashScreenView(
-      home: SecondScreen(),
+      navigateRoute: SecondScreen(),
       duration: 5000,
       imageSize: 100,
       imageSrc: "logo.png",
@@ -150,7 +150,7 @@ SplashScreenView(
 
 ```dart
 SplashScreenView(
-      home: SecondScreen(),
+      navigateRoute: SecondScreen(),
       duration: 3000,
       imageSize: 100,
       imageSrc: "logo.png",
@@ -172,7 +172,7 @@ SplashScreenView(
 
 ```dart
 SplashScreenView(
-      home: SecondScreen(),
+      navigateRoute: SecondScreen(),
       duration: 3000,
       imageSize: 100,
       imageSrc: "logo.png",

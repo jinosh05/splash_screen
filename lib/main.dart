@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     /// Normal Logo Splash screen
     Widget example1 = SplashScreenView(
-      widget: SecondScreen(),
+      navigateRoute: SecondScreen(),
       duration: 3000,
       imageSize: 100,
       imageSrc: "splashscreen_image.png",
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
 
     /// Logo with animated Colorize text
     Widget example2 = SplashScreenView(
-      widget: SecondScreen(),
+      navigateRoute: SecondScreen(),
       duration: 5000,
       imageSize: 100,
       imageSrc: "splashscreen_image.png",
@@ -41,7 +41,7 @@ class MyApp extends StatelessWidget {
 
     /// Logo with Typer Animated Text example
     Widget example3 = SplashScreenView(
-      widget: SecondScreen(),
+      navigateRoute: SecondScreen(),
       duration: 3000,
       imageSize: 100,
       pageRouteTransition: PageRouteTransition.Normal,
@@ -57,7 +57,7 @@ class MyApp extends StatelessWidget {
 
     /// Logo with Scale Animated Text example
     Widget example4 = SplashScreenView(
-      widget: SecondScreen(),
+      navigateRoute: SecondScreen(),
       duration: 3000,
       imageSize: 100,
       imageSrc: "splashscreen_image.png",
@@ -71,7 +71,7 @@ class MyApp extends StatelessWidget {
 
     /// Logo with Normal Text example
     Widget example5 = SplashScreenView(
-      widget: SecondScreen(),
+      navigateRoute: SecondScreen(),
       duration: 3000,
       imageSize: 100,
       imageSrc: "splashscreen_image.png",
@@ -85,7 +85,7 @@ class MyApp extends StatelessWidget {
 
     return MaterialApp(
       title: 'Splash screen Demo',
-      home: example1,
+      home: example2,
     );
   }
 }
