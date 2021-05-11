@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     Widget example1 = SplashScreenView(
       navigateRoute: SecondScreen(),
       duration: 3000,
-      imageSize: 100,
+      imageSize: 130,
       imageSrc: "splashscreen_image.png",
       backgroundColor: Colors.white,
     );
@@ -23,9 +23,9 @@ class MyApp extends StatelessWidget {
     Widget example2 = SplashScreenView(
       navigateRoute: SecondScreen(),
       duration: 5000,
-      imageSize: 100,
+      imageSize: 130,
       imageSrc: "splashscreen_image.png",
-      text: "Colorize Text",
+      text: "Splash Screen",
       textType: TextType.ColorizeAnimationText,
       textStyle: TextStyle(
         fontSize: 40.0,
@@ -43,11 +43,11 @@ class MyApp extends StatelessWidget {
     Widget example3 = SplashScreenView(
       navigateRoute: SecondScreen(),
       duration: 3000,
-      imageSize: 100,
+      imageSize: 130,
       pageRouteTransition: PageRouteTransition.Normal,
       imageSrc: "splashscreen_image.png",
       speed: 100,
-      text: "Typer Animated Text",
+      text: "Splash Screen",
       textType: TextType.TyperAnimatedText,
       textStyle: TextStyle(
         fontSize: 30.0,
@@ -59,9 +59,9 @@ class MyApp extends StatelessWidget {
     Widget example4 = SplashScreenView(
       navigateRoute: SecondScreen(),
       duration: 3000,
-      imageSize: 100,
+      imageSize: 130,
       imageSrc: "splashscreen_image.png",
-      text: "Scale Animated Text",
+      text: "Splash Screen",
       textType: TextType.ScaleAnimatedText,
       textStyle: TextStyle(
         fontSize: 30.0,
@@ -73,9 +73,9 @@ class MyApp extends StatelessWidget {
     Widget example5 = SplashScreenView(
       navigateRoute: SecondScreen(),
       duration: 3000,
-      imageSize: 100,
+      imageSize: 130,
       imageSrc: "splashscreen_image.png",
-      text: "Normal Text",
+      text: "Splash Screen",
       textType: TextType.NormalText,
       textStyle: TextStyle(
         fontSize: 30.0,
