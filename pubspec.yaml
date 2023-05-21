@@ -1,16 +1,15 @@
 name: splash_screen
 description: A new Flutter application.
 
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^0.1.3
   splash_screen_view: ^3.0.0
 
 dev_dependencies:
@@ -21,7 +20,6 @@ flutter:
   uses-material-design: true
   assets:
     - splashscreen_image.png
-
 
 splash_screen_view:
   # Use color to set the background of your splash screen to a solid color.
