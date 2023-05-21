@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     /// Normal Logo Splash screen
+    // ignore: unused_local_variable
     Widget example1 = SplashScreenView(
       navigateRoute: SecondScreen(),
       duration: 3000,
@@ -40,6 +41,7 @@ class MyApp extends StatelessWidget {
     );
 
     /// Logo with Typer Animated Text example
+    // ignore: unused_local_variable
     Widget example3 = SplashScreenView(
       navigateRoute: SecondScreen(),
       duration: 3000,
@@ -56,6 +58,7 @@ class MyApp extends StatelessWidget {
     );
 
     /// Logo with Scale Animated Text example
+    // ignore: unused_local_variable
     Widget example4 = SplashScreenView(
       navigateRoute: SecondScreen(),
       duration: 3000,
@@ -70,6 +73,7 @@ class MyApp extends StatelessWidget {
     );
 
     /// Logo with Normal Text example
+    // ignore: unused_local_variable
     Widget example5 = SplashScreenView(
       navigateRoute: SecondScreen(),
       duration: 3000,
